@@ -9,20 +9,23 @@ To write a program to find the LU Decomposition of a matrix.
 
 ## Algorithm
 (i) To find the L and U matrix:
-
+```
 Step 1: Import the required libraries.
 Step 2: Accept a square matrix as input and convert it to a NumPy array.
 Step 3: Apply the lu() function to decompose the matrix into:
 Step 4: Display the L and U matrices using print().
 Step 5: End the program.
+```
+
 (ii) To find the LU Decomposition of a matrix:
+```
 Step 1: Import the required libraries:
 Step 2: Input the coefficient matrix A and the constant matrix B from the user, and convert them to NumPy arrays.
 Step 3: Perform LU decomposition of matrix A using lu_factor(A), which returns the LU matrix and pivot indices.
 Step 4: Solve the system of equations AX = B using lu_solve((lu, piv), B) to get the solution matrix X.
 Step 5: Display the result (solution matrix X) using print().
 Step 6: End the program.
-
+```
 ## Program:
 (i) To find the L and U matrix.
 
